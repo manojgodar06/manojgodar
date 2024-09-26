@@ -68,6 +68,26 @@ body {
   text-align: left;
   background-color: #fff;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start; /* Align items to the left */
+}
+
+.text-left {
+    margin-left: 20px; /* Space between image and text */
+}
+
+.masthead-avatar {
+    width: 150px; /* Adjust the image size as needed */
+    height: auto;
+}
+
+.expert-description {
+    font-size: 14px; /* Smaller font size for additional description */
+    color: #CCC; /* Lighter text color for less emphasis */
+}
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
